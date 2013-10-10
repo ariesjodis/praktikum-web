@@ -7,7 +7,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 </head>
 <body>
 <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
-Jenis Kelamin
+Hobby
 <input type="checkbox" name="hobby[]" value="Membaca"
 />Membaca
 <input type="checkbox" name="hobby[]" value="Olahraga"
