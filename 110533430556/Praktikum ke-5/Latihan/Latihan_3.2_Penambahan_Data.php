@@ -20,7 +20,6 @@
 		<td>Alamat</td>
 		<td><input type="text" name="alamat" size=60 /></td>
 	</tr>
-	49
 	<tr>
 		<td></td>
 		<td><input type="submit" value="Simpan" /></td>
@@ -28,7 +27,7 @@
 </table>
 </form>
 <?php
-	require_once './Koneksi.php';
+	require_once './Latihan_1.1_Koneksi.php';
 	// Jika field nim dan nama diisi lalu disubmit
 	if (isset($_POST['nim']) && isset($_POST['nama'])) 
 	{
@@ -53,7 +52,7 @@
 	echo '<hr />';
 	// Memanfaatkan script pengambilan data untuk
 	// menampilkan hasil
-	require_once './Pengambilan_Data.php';
+	require_once './Latihan_3.1_Seleksi_Pengambilan_Data.php';
 ?>
 </body>
 </html>

@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-	require_once './Koneksi.php';
+	require_once './Latihan_1.1_Koneksi.php';
 	$sql = 'CREATE TABLE mahasiswa (
 			nim VARCHAR(12) NOT NULL,
 			nama VARCHAR(40) NOT NULL,

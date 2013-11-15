@@ -7,7 +7,7 @@
 
 <body>
 <?php
-	require_once './Koneksi.php';
+	require_once './Latihan_1.1_Koneksi.php';
 	$db = 'myweb';
 	$res = mysql_query('CREATE DATABASE ' . $db);
 	if ($res) 

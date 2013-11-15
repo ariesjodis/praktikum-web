@@ -7,7 +7,7 @@
 
 <body>
 <?php
-	require_once './Koneksi.php';
+	require_once './Latihan_1.1_Koneksi.php';
 ?>
 
 <h4>Koneksi Berhasil</h4>
